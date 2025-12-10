@@ -1,0 +1,36 @@
+/* css/style.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f8fb;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 740px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 22px;
+  border-radius: 8px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.06);
+}
+h1, h2 { margin-top: 0; }
+.btn {
+  display: inline-block;
+  background: #2e7be6;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.page-admin .container { max-width: 900px; }
+label { display:block; margin-top:10px; }
+input[type="text"], textarea, input[type="number"] {
+  width: 100%; padding: 8px; margin-top:6px; border:1px solid #ddd; border-radius:4px;
+}
+textarea { min-height:80px; }
+.question-block { padding:12px; border-bottom:1px solid #eee; }
+.qno { font-weight:600; }
+.info { color: green; }
+.questions { width:100%; border-collapse:collapse; }
+.questions th, .questions td { border:1px solid #eee; padding:8px; text-align:left; vertical-align:top; }
